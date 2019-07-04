@@ -9,6 +9,7 @@
 //                 Stefan Langeder <https://github.com/slangeder>
 //                 Marlos Borges <https://github.com/marlosin>
 //                 Thomas Marek <https://github.com/ttmarek>
+//                 Thibault Even <https://github.com/tevenFr>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 declare var Stripe: stripe.StripeStatic;
@@ -818,7 +819,7 @@ declare namespace stripe {
             /**
              * User-given reason for cancellation of this PaymentIntent.
              */
-            cancelation_reason: PaymentIntentCancelationReason | null;
+            cancellation_reason: PaymentIntentCancelationReason | null;
 
             /**
              * Capture method of this PaymentIntent.
